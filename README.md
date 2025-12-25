@@ -55,6 +55,20 @@ The focus is on understanding **chatbots, tool calling, and agent workflows** us
 - How LLM decides when to use tools
 
 ---
+## 03. LangGraph RAG Chatbot with Astra DB 
+
+This notebook demonstrates an **end-to-end Retrieval-Augmented Generation (RAG) chatbot** using:
+
+- **LangGraph**: For orchestrating the workflow and managing state.  
+- **Groq LLM (Llama-3.1-8b-instant)**: For question answering.  
+- **Astra DB Vector Store**: To store and retrieve documents (LangGraph & LangChain documentation).  
+- **LangChain & HuggingFace embeddings**: For converting text to embeddings and similarity search.
+
+**Key Features:**
+
+- Routes user questions using a structured `RouteQuery` router.  
+- Retrieves relevant documents from Astra DB vector store.  
+- Generates answers using LLM with context from retrieved documents.  
 
 ## 🧠 Tech Stack
 
