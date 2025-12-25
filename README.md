@@ -36,7 +36,7 @@ The focus is on understanding **chatbots, tool calling, and agent workflows** us
 
 ## 🔧 2. LangGraph Chatbot with ArXiv Tool
 
-**File:** `02_langgraph_chatbot_with_tool.ipynb`
+**File:** `langgraph_chatbot_with_tool.ipynb`
 
 ### Features:
 - Tool-augmented chatbot
